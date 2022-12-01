@@ -2,22 +2,31 @@
 
     <form>
         <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span> 
-            <input id="operator1" [(ngModel)]="operator1" type="number" class="form-control operator1" name="operator1" placeholder="0.0">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+            <input id="operator1" [(ngModel)]="operator1" type="number" class="form-control operator1" name="operator1"
+                placeholder="0.0">
         </div>
 
         <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-            <input id="operator2" [(ngModel)]="operator2" type="number" class="form-control operator2" name="operator2" placeholder="0.0">
+            <input id="operator2" [(ngModel)]="operator2" type="number" class="form-control operator2" name="operator2"
+                placeholder="0.0">
         </div>
     </form>
 
-    <i class="glyphicon glyphicon-plus addition-button"
-        (click)="addition()"></i>
-
-    <i class="glyphicon glyphicon-minus substraction-button"
-        (click)="substraction()"></i>
-
+    <i class="glyphicon glyphicon-plus addition-button" (click)="addition()"></i>
+    <br>
+    <i class="glyphicon glyphicon-minus substraction-button" (click)="substraction()"></i>
+    <br>
+    <i class="glyphicon glyphicon-asterisk multiplication-button" (click)="multiplication()"></i>
+    <br>
+    <i class="fas fa-angle-up division-button" (click)="division()">/</i>
+    <br>
+    <i class="bi bi-regex exp-button" (click)="exp()">n<sup>x</sup></i>
+    <br>
+    <i class="glyphicon glyphicon-superscript sqr-button" (click)="sqr()"></i>
+    <br>
+    <i class="fas fas fa-check sqrt-button" (click)="sqrt()">√n</i>
 </div>
 
 <span class="result">{{ result }}</span>

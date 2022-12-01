@@ -1,3 +1,5 @@
+
+
 .calculator {
     width: 150px;
     text-align: center;
@@ -24,13 +26,32 @@
     color: blue;
 
 }
-
 .addition-button {
     cursor: pointer;
-    color: blue;
+    color: rgb(97, 227, 17);
 }
 .substraction-button {
     cursor: pointer;
-    color: green;
+    color: rgb(240, 135, 15);
 }
-
+.multiplication-button {
+    cursor: pointer;
+    color: rgb(19, 45, 241);
+}
+.division-button {
+    font-size: large;
+    cursor: pointer;
+    color: rgb(219, 235, 46);
+}
+.exp-button {
+    cursor: pointer;
+    color: rgb(157, 6, 51);
+}
+.sqr-button {
+    cursor: pointer;
+    color: rgb(16, 185, 190);
+}
+.sqrt-button {
+    cursor: pointer;
+    color: rgb(163, 14, 209);
+}
